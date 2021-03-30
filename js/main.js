@@ -1,7 +1,3 @@
-function invite() {
-    window.location.href = 'https://discord.com/oauth2/authorize?client_id=737236600878137363&permissions=124992&scope=bot';
-}
-
 $(window).scroll(function() {
     inViewport();
 });

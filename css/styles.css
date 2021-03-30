@@ -38,7 +38,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 24px;
-    padding: 6px 10px 0 10px;
+    padding: 6px 10px 0;
     text-decoration: none;
 }
 
@@ -60,11 +60,11 @@ body {
     cursor: default;
     color: white;
     font-size: 24px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
 }
 
 .home-container {
-    margin: 0 200px 200px 200px;
+    margin: 0 200px 200px;
     height: 650px;
     text-align: center;
 }
@@ -175,7 +175,7 @@ body {
 }
 
 .example-container-text {
-    margin: 100px 150px 100px 150px;
+    margin: 100px 150px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -236,7 +236,7 @@ body {
 }
 
 .commands-table-headline {
-    margin: 25px 250px 10px 250px;
+    margin: 25px 250px 10px;
 }
 
 .commands-table-headline a {
@@ -247,7 +247,7 @@ body {
 }
 
 .commands-table-subtitle {
-    margin: 10px 250px 10px 250px;
+    margin: 10px 250px;
 }
 
 .commands-table-subtitle a {
@@ -258,7 +258,7 @@ body {
 }
 
 .commands-table-container {
-    margin: 0 250px 0 250px;
+    margin: 0 250px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -398,7 +398,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 45px;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 0;
     text-decoration: none;
 }
 
@@ -415,7 +415,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 0;
     text-decoration: none;
 }
 
