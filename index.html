@@ -17,6 +17,9 @@
       function invite() {
         window.location.href = 'https://discord.com/oauth2/authorize?client_id=737236600878137363&permissions=124992&scope=bot';
       }
+      function support() {
+        window.location.href = 'https://discord.gg/Bv94yQYZM8';
+      }
     </script>
   </head>
   <body>
@@ -31,10 +34,12 @@
         <li><a class="navbar-link" href="#team" draggable="false">Team</a></li>
         <a class="navbar-point">•</a>
         <li><a class="navbar-link" onclick="invite()" draggable="false">Invite</a></li>
+        <a class="navbar-point">•</a>
+        <li><a class="navbar-link" onclick="support()" draggable="false">Support</a></li>
       </div>
     </div>
     <section id="home">
-      <div style="height: 150px;"></div>
+      <div style="height: 100px;"></div>
       <div class="home-container">
         <div class="image-container">
           <img src="assets/imgs/logo.png" alt="Logo" draggable="false">
@@ -47,6 +52,10 @@
         </div>
         <div class="invite-button-container">
           <button class="invite-button" onclick="invite()">Invite</button>
+        </div>
+        <div style="height: 50px;"></div>
+        <div class="support-button-container">
+          <button class="support-button" onclick="support()">Support Server</button>
         </div>
       </div>
     </section>
@@ -331,9 +340,11 @@
       </div>
       <div class="footer-links-container">
         <p>
-          <a href="https://github.com/IchBinLeoon/anisearch-discord-bot" draggable="false">GitHub</a>
-          <a style="cursor: default;"> | </a>
           <a onclick="invite()">Invite</a>
+          <a style="cursor: default;"> | </a>
+          <a onclick="support()">Support</a>
+          <a style="cursor: default;"> | </a>
+          <a href="https://github.com/IchBinLeoon/anisearch-discord-bot" draggable="false">GitHub</a>
         </p>
       </div>
     </div>

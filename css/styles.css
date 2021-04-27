@@ -130,6 +130,29 @@ body {
     background-color: #677BC4;
 }
 
+.support-button-container {
+    height: 60px;
+    text-align: center;
+}
+
+.support-button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.support-button:hover {
+    background-color: #D0D0D0;
+}
+
 .parallax1 {
     background-image: url("../assets/imgs/parallax1.jpg");
     min-height: 550px;
