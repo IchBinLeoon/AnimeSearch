@@ -163,8 +163,9 @@ body {
 
 .features-container {
     width: 100%;
-    height: 3400px;
+    height: 3500px;
     background-color: #292B2F;
+    position: relative;
 }
 
 .shadow {
@@ -174,7 +175,7 @@ body {
 .example-image-container-left {
     width: 50%;
     float: left;
-    height: 3250px;
+    height: 3400px;
 }
 
 .example-image-container-left img {
@@ -187,7 +188,7 @@ body {
 .example-image-container-right {
     width: 50%;
     float: right;
-    height: 3250px;
+    height: 3400px;
 }
 
 .example-image-container-right img {
@@ -220,7 +221,10 @@ body {
 }
 
 .zero-two {
-    width: 477px;
+    width: 650px;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
 }
 
 .commands-container {
