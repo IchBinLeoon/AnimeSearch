@@ -21,10 +21,13 @@ body {
 }
 
 .navbar-links-container {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    height: 50px;
 }
 
 .navbar-links-container li {
