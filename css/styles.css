@@ -305,7 +305,7 @@ body {
 
 .team-container {
     width: 100%;
-    height: 900px;
+    height: 1000px;
     background-color: #292B2F;
 }
 
@@ -397,11 +397,12 @@ body {
 
 .footer {
     width: 100%;
+    height: 110px;
+    background-color: #202225;
 }
 
 .footer-head-container {
     text-align: center;
-    margin-top: 35px;
     display: block;
 }
 
@@ -442,5 +443,5 @@ body {
 .copyright a {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-    color: #999999;
+    color: #DDDDDD;
 }
