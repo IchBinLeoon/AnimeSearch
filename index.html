@@ -13,14 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script>
-      function invite() {
-        window.location.href = 'https://discord.com/oauth2/authorize?client_id=737236600878137363&permissions=124992&scope=bot';
-      }
-      function support() {
-        window.location.href = 'https://discord.gg/Bv94yQYZM8';
-      }
-    </script>
   </head>
   <body>
     <div class="navbar">
@@ -33,9 +25,9 @@
         <a class="navbar-point">•</a>
         <li><a class="navbar-link" href="#team" draggable="false">Team</a></li>
         <a class="navbar-point">•</a>
-        <li><a class="navbar-link" onclick="invite()" draggable="false">Invite</a></li>
+        <li><a class="navbar-link" href="invite.html" draggable="false">Invite</a></li>
         <a class="navbar-point">•</a>
-        <li><a class="navbar-link" onclick="support()" draggable="false">Support</a></li>
+        <li><a class="navbar-link" href="support.html" draggable="false">Support</a></li>
       </div>
     </div>
     <section id="home">
@@ -51,11 +43,15 @@
           <a>Look up information about anime, manga and much more directly in Discord!</a>
         </div>
         <div class="invite-button-container">
-          <button class="invite-button" onclick="invite()">Invite</button>
+          <form method="get" action="invite.html">
+            <button class="invite-button">Invite</button>
+          </form>
         </div>
         <div style="height: 50px;"></div>
         <div class="support-button-container">
-          <button class="support-button" onclick="support()">Support Server</button>
+          <form method="get" action="support.html">
+            <button class="support-button">Support Server</button>
+          </form>
         </div>
       </div>
     </section>
@@ -372,9 +368,9 @@
       </div>
       <div class="footer-links-container">
         <p>
-          <a onclick="invite()">Invite</a>
+          <a href="invite.html">Invite</a>
           <a style="cursor: default;"> | </a>
-          <a onclick="support()">Support</a>
+          <a href="support.html">Support</a>
           <a style="cursor: default;"> | </a>
           <a href="https://github.com/IchBinLeoon/anisearch-discord-bot" draggable="false">GitHub</a>
         </p>

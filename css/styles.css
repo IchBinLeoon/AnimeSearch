@@ -207,8 +207,11 @@ body {
 }
 
 .to-fate-in {
-    opacity: 0;
     transition: opacity .5s ease-in-out;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 .visible {
@@ -305,7 +308,7 @@ body {
 
 .team-container {
     width: 100%;
-    height: 1000px;
+    height: 850px;
     background-color: #292B2F;
 }
 

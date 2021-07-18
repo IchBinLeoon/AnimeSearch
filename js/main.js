@@ -1,3 +1,7 @@
+$('.to-fate-in').each(function() {
+    $(this).addClass('invisible');
+})
+
 $(window).scroll(function() {
     inViewport();
 });
