@@ -1,21 +1,21 @@
-$('.to-fate-in').each(function() {
-    $(this).addClass('invisible');
-})
+$(".to-fate-in").each(function () {
+    $(this).addClass("invisible");
+});
 
-$(window).scroll(function() {
+$(window).scroll(function () {
     inViewport();
 });
 
-$(window).resize(function() {
+$(window).resize(function () {
     inViewport();
 });
 
 function inViewport() {
-    $('.to-fate-in').each(function() {
+    $(".to-fate-in").each(function () {
         const divPos = $(this).offset().top,
             topOfWindow = $(window).scrollTop();
-        if(divPos < topOfWindow+400){
-            $(this).addClass('visible');
+        if (divPos < topOfWindow + 400) {
+            $(this).addClass("visible");
         }
     });
 }

@@ -1,16 +1,14 @@
 html {
     scroll-behavior: smooth;
 }
-
 body {
     margin: 0;
     padding: 0;
-    background-color: #292B2F;
-    font-family: 'Lato', sans-serif;
+    background-color: #292b2f;
+    font-family: "Lato", sans-serif;
     user-select: none;
     color: white;
 }
-
 .navbar {
     z-index: 999;
     height: 50px;
@@ -19,7 +17,6 @@ body {
     top: 0;
     width: 100%;
 }
-
 .navbar-links-container {
     display: flex;
     align-items: baseline;
@@ -29,115 +26,98 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
-
 .navbar-links-container li {
     display: inline-block;
 }
-
 .navbar-links-container li a {
     cursor: pointer;
     display: block;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 24px;
     padding: 6px 10px 0;
     text-decoration: none;
 }
-
 .navbar-link::after {
-    content: '';
+    content: "";
     display: block;
     width: 0;
     height: 2px;
     background: white;
     transition: width 0.3s;
 }
-
 .navbar-link:hover::after {
     width: 100%;
     transition: width 0.3s;
 }
-
 .navbar-point {
     cursor: default;
     color: white;
     font-size: 24px;
     padding: 0 10px;
 }
-
 .home-container {
     margin: 0 200px 200px;
     height: 650px;
     text-align: center;
 }
-
 .image-container {
     height: 275px;
     text-align: center;
 }
-
 .image-container img {
     border-radius: 50%;
     height: 250px;
     width: 250px;
 }
-
 .headline-container {
     line-height: 100px;
     height: 100px;
     text-align: center;
 }
-
 .headline-container a {
     font-size: 50px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     color: white;
 }
-
 .description-container {
     height: 125px;
     width: 500px;
     text-align: center;
     display: inline-block;
 }
-
 .description-container a {
     font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    color: #DDDDDD;
+    font-family: "Lato", sans-serif;
+    color: #dddddd;
 }
-
 .invite-button-container {
     height: 75px;
     text-align: center;
 }
-
 .invite-button {
-    background-color: #7289DA;
+    background-color: #7289da;
     border: none;
     border-radius: 5px;
     width: 200px;
     height: 75px;
     color: white;
     font-size: 30px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     overflow: hidden;
     cursor: pointer;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .invite-button:hover {
-    background-color: #677BC4;
+    background-color: #677bc4;
 }
-
 .support-button-container {
     height: 60px;
     text-align: center;
 }
-
 .support-button {
     background-color: white;
     border: none;
@@ -145,159 +125,133 @@ body {
     width: 230px;
     height: 60px;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     overflow: hidden;
     cursor: pointer;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .support-button:hover {
-    background-color: #D0D0D0;
+    background-color: #d0d0d0;
 }
-
 .features-container {
     width: 100%;
     height: 3700px;
-    background-color: #292B2F;
+    background-color: #292b2f;
     position: relative;
 }
-
 .shadow {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .example-image-container-left {
     width: 50%;
     float: left;
     height: 3400px;
 }
-
 .example-image-container-left img {
     display: block;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .example-image-container-right {
     width: 50%;
     float: right;
     height: 3400px;
 }
-
 .example-image-container-right img {
     display: block;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .example-container-text {
     margin: 100px 150px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     text-shadow: 4px 4px 4px black;
 }
-
 .example-container-text a {
     font-size: 50px;
     color: white;
 }
-
 .to-fate-in {
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
-
 .invisible {
     opacity: 0;
 }
-
 .visible {
     opacity: 1;
 }
-
 .zero-two {
     width: 650px;
     position: absolute;
     left: 60%;
     bottom: 0;
 }
-
 .commands-container {
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
-
 .commands-headline-container {
     line-height: 150px;
     height: 150px;
     text-align: center;
 }
-
 .commands-headline-container a {
     font-size: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     color: black;
 }
-
 .commands-subtitle-container {
     text-align: center;
 }
-
 .commands-subtitle-container p {
     height: 30px;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: black;
 }
-
 .commands-subtitle-container code {
-    background-color: #DDDDDD;
+    background-color: #dddddd;
     padding: 2px;
 }
-
 .commands-table-headline {
     margin: 25px 250px 10px;
 }
-
 .commands-table-headline a {
     font-size: 50px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     color: black;
 }
-
 .commands-table-subtitle {
     margin: 10px 250px;
 }
-
 .commands-table-subtitle a {
     font-size: 25px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     color: black;
 }
-
 .commands-table-container {
     margin: 0 250px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .commands-table {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     width: 100%;
     border: none;
 }
-
-.commands-table td, .commands-table th {
+.commands-table td,
+.commands-table th {
     padding: 8px;
     color: black;
     font-size: 15px;
 }
-
 .commands-table th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -305,38 +259,32 @@ body {
     background-color: #202225;
     color: white;
 }
-
 .team-container {
     width: 100%;
     height: 850px;
-    background-color: #292B2F;
+    background-color: #292b2f;
 }
-
 .team-headline-container {
     line-height: 150px;
     height: 150px;
     text-align: center;
 }
-
 .team-headline-container a {
     font-size: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     color: white;
 }
-
 .team-subtitle-container {
     margin-top: 30px;
     text-align: center;
 }
-
 .team-subtitle-container a {
     font-size: 30px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     color: white;
 }
-
 .team-box {
     display: block;
     margin-left: auto;
@@ -348,12 +296,10 @@ body {
     background-color: #202225;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .team-box:hover {
     position: relative;
     top: -5px;
 }
-
 .team-box-image {
     margin-top: 10px;
     display: block;
@@ -362,24 +308,20 @@ body {
     width: 175px;
     height: 175px;
 }
-
 .team-box-image img {
     border-radius: 50%;
     width: 175px;
     height: 175px;
 }
-
 .team-box-name {
     margin-top: 25px;
     text-align: center;
 }
-
 .team-box-name a {
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white;
 }
-
 .team-box-links {
     margin-left: auto;
     margin-right: auto;
@@ -387,54 +329,46 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .team-box-links a {
     display: inline-block;
     text-decoration: none;
     padding: 10px;
 }
-
 .team-box-links img {
     width: 35px;
 }
-
 .footer {
     width: 100%;
     height: 110px;
     background-color: #202225;
 }
-
 .footer-head-container {
     text-align: center;
     display: block;
 }
-
 .footer-head-container a {
-    color: #DDDDDD;
-    font-family: 'Dancing Script', cursive;
+    color: #dddddd;
+    font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 45px;
     padding: 10px 10px 0;
     text-decoration: none;
 }
-
 .footer-links-container {
     text-align: center;
     display: block;
     margin-bottom: 35px;
 }
-
 .footer-links-container a {
     cursor: pointer;
     display: inline-block;
-    color: #DDDDDD;
-    font-family: 'Lato', sans-serif;
+    color: #dddddd;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 10px 10px 0;
     text-decoration: none;
 }
-
 .copyright {
     height: 50px;
     width: 100%;
@@ -442,9 +376,8 @@ body {
     text-align: center;
     line-height: 50px;
 }
-
 .copyright a {
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    color: #DDDDDD;
+    font-family: "Lato", sans-serif;
+    color: #dddddd;
 }
