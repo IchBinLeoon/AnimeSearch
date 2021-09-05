@@ -228,15 +228,6 @@ body {
     font-weight: bold;
     color: black;
 }
-.commands-table-subtitle {
-    margin: 10px 250px;
-}
-.commands-table-subtitle a {
-    font-size: 25px;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    color: black;
-}
 .commands-table-container {
     margin: 0 250px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
