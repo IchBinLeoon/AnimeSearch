@@ -173,7 +173,7 @@
                 </div>
                 <div style="height: 100px;"></div>
                 <div class="commands-table-headline">
-                    <a>Themes</a>
+                    <a>Notification</a>
                 </div>
                 <div class="commands-table-container">
                     <table cellspacing="0" cellpadding="0" class="commands-table">
@@ -182,12 +182,20 @@
                             <th>Description</th>
                         </tr>
                         <tr>
-                            <td><code>themes &lt;anime&gt;</code></td>
-                            <td>Searches for the openings and endings of the given anime and displays them.</td>
+                            <td><code>watchlist</code></td>
+                            <td>Displays the anime watchlist of the server. If no anime has been added to the watchlist, the server will receive a notification for every new episode.</td>
                         </tr>
                         <tr>
-                            <td><code>theme &lt;OP|ED&gt; &lt;anime&gt;</code></td>
-                            <td>Displays a specific opening or ending of the given anime.</td>
+                            <td><code>watch &lt;anilist-id&gt;</code></td>
+                            <td>Adds an anime you want to receive episode notifications from to the server watchlist by AniList ID. Can only be used by a server administrator.</td>
+                        </tr>
+                        <tr>
+                            <td><code>unwatch &lt;anilist-id&gt;</code></td>
+                            <td>Removes an anime from the server watchlist by AniList ID. Can only be used by a server administrator.</td>
+                        </tr>
+                        <tr>
+                            <td><code>clearlist</code></td>
+                            <td>Removes all anime from the server watchlist. Can only be used by a server administrator.</td>
                         </tr>
                     </table>
                 </div>
@@ -221,7 +229,27 @@
                 </div>
                 <div style="height: 100px;"></div>
                 <div class="commands-table-headline">
-                    <a>Schedule</a>
+                    <a>Themes</a>
+                </div>
+                <div class="commands-table-container">
+                    <table cellspacing="0" cellpadding="0" class="commands-table">
+                        <tr>
+                            <th>Usage</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><code>themes &lt;anime&gt;</code></td>
+                            <td>Searches for the openings and endings of the given anime and displays them.</td>
+                        </tr>
+                        <tr>
+                            <td><code>theme &lt;OP|ED&gt; &lt;anime&gt;</code></td>
+                            <td>Displays a specific opening or ending of the given anime.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="height: 100px;"></div>
+                <div class="commands-table-headline">
+                    <a>News</a>
                 </div>
                 <div class="commands-table-container">
                     <table cellspacing="0" cellpadding="0" class="commands-table">
@@ -236,30 +264,6 @@
                         <tr>
                             <td><code>last</code></td>
                             <td>Displays the most recently aired anime episodes.</td>
-                        </tr>
-                        <tr>
-                            <td><code>watchlist</code></td>
-                            <td>Displays the anime watchlist of the server. If no anime has been added to the watchlist, the server will receive a notification for every new episode.</td>
-                        </tr>
-                        <tr>
-                            <td><code>watch &lt;anilist-id&gt;</code></td>
-                            <td>Adds an anime you want to receive episode notifications from to the server watchlist by AniList ID. Can only be used by a server administrator.</td>
-                        </tr>
-                        <tr>
-                            <td><code>unwatch &lt;anilist-id&gt;</code></td>
-                            <td>Removes an anime from to the server watchlist by AniList ID. Can only be used by a server administrator.</td>
-                        </tr>
-                    </table>
-                </div>
-                <div style="height: 100px;"></div>
-                <div class="commands-table-headline">
-                    <a>News</a>
-                </div>
-                <div class="commands-table-container">
-                    <table cellspacing="0" cellpadding="0" class="commands-table">
-                        <tr>
-                            <th>Usage</th>
-                            <th>Description</th>
                         </tr>
                         <tr>
                             <td style="width: 375px;"><code>aninews</code></td>
