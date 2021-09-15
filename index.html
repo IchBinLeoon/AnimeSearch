@@ -183,7 +183,7 @@
                         </tr>
                         <tr>
                             <td><code>watchlist</code></td>
-                            <td>Displays the anime watchlist of the server. If no anime has been added to the watchlist, the server will receive a notification for every new episode.</td>
+                            <td>Displays the anime watchlist of the server. If no anime has been added to the watchlist, the server will receive a notification for every new episode, provided the channel has been set.</td>
                         </tr>
                         <tr>
                             <td><code>watch &lt;anilist-id&gt;</code></td>
@@ -196,6 +196,14 @@
                         <tr>
                             <td><code>clearlist</code></td>
                             <td>Removes all anime from the server watchlist. Can only be used by a server administrator.</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 375px;"><code>set &lt;channel|role&gt; &lt;#channel|@role&gt;</code></td>
+                            <td>Sets the channel for anime episode notifications, or the role for notification mentions. Can only be used by a server administrator.</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 375px;"><code>remove &lt;channel|role&gt;</code></td>
+                            <td>Removes the set channel or role. Can only be used by a server administrator.</td>
                         </tr>
                     </table>
                 </div>
@@ -326,16 +334,8 @@
                             <th>Description</th>
                         </tr>
                         <tr>
-                            <td style="width: 375px;"><code>set &lt;prefix|channel|role&gt; &lt;prefix|#channel|@role&gt;</code></td>
-                            <td>Sets the server prefix, the channel for anime episode notifications, or the role for notification mentions. Can only be used by a server administrator.</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 375px;"><code>remove &lt;channel|role&gt;</code></td>
-                            <td>Removes the set channel or role. Can only be used by a server administrator.</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 375px;"><code>info</code></td>
-                            <td>Displays the set prefix, the set channel and the set role. Can only be used by a server administrator.</td>
+                            <td style="width: 375px;"><code>setprefix &lt;prefix&gt;</code></td>
+                            <td>Changes the server prefix. Can only be used by a server administrator.</td>
                         </tr>
                     </table>
                 </div>
